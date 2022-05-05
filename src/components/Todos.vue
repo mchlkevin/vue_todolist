@@ -10,7 +10,6 @@
 import TodoItem from './TodoItem.vue'
 export default {
     name: "todo-s",
-    component: { TodoItem },
     props: ["todos"],
     components: { TodoItem }
 }
